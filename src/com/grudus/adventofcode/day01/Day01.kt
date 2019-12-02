@@ -1,7 +1,5 @@
 package com.grudus.adventofcode.day01
 
-import com.grudus.adventofcode.day01.TheTyrannyOfTheRocketEquation.firstStar
-import com.grudus.adventofcode.day01.TheTyrannyOfTheRocketEquation.secondStar
 import com.grudus.adventofcode.readDayInput
 
 object TheTyrannyOfTheRocketEquation {
@@ -30,6 +28,6 @@ object TheTyrannyOfTheRocketEquation {
 fun main() {
     val input = readDayInput("01")
 
-    println(firstStar(input))
-    println(secondStar(input))
+    println(TheTyrannyOfTheRocketEquation.firstStar(input))
+    println(TheTyrannyOfTheRocketEquation.secondStar(input))
 }
